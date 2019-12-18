@@ -147,7 +147,7 @@ elif choice == 1:
       file.close()
 
       print('Good. Try again next time with ', + nameVal1)
-  
+
     elif counter < 3:
       tracker1 = tracker1 + 1
 
@@ -200,7 +200,7 @@ elif choice == 1:
       file.close()
 
       print('Good. Try again next time with ', + nameVal2)
-  
+
     elif counter < 3:
       tracker2 = tracker2 + 1
 
@@ -253,7 +253,7 @@ elif choice == 1:
       file.close()
 
       print('Good. Try again next time with ', + nameVal3)
-  
+
     elif counter < 3:
       tracker3 = tracker3 + 1
 
@@ -306,7 +306,7 @@ elif choice == 1:
       file.close()
 
       print('Good. Try again next time with ', + nameVal4)
-  
+
     elif counter < 3:
       tracker4 = tracker4 + 1
 
@@ -359,7 +359,7 @@ elif choice == 1:
       file.close()
 
       print('Good. Try again next time with ', + nameVal5)
-  
+
     elif counter < 3:
       tracker5 = tracker5 + 1
 
@@ -412,7 +412,7 @@ elif choice == 1:
       file.close()
 
       print('Good. Try again next time with ', + nameVal6)
-  
+
     elif counter < 3:
       tracker6 = tracker6 + 1
 
@@ -435,5 +435,3 @@ elif choice == 1:
       print('Try again next time with ', + nameVal6)
   else:
     pass
-
-  
