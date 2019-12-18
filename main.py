@@ -3,71 +3,71 @@ import pickle
 choice = int(input('Press 1 to load data or 0 to start over: '))
 
 if choice == 0:
-    name1 = str(input('Enter name of lift 1: '))
-    nameVal1 = float(input('Enter a value for ' + name1 + ': '))
-    tracker1 = 0
+  name1 = str(input('Enter name of lift 1: '))
+  nameVal1 = float(input('Enter a value for ' + name1 + ': '))
+  tracker1 = 0
 
-    file = open('data1.txt', 'wb')
-    pickle.dump(name1, file)
-    pickle.dump(nameVal1, file)
-    pickle.dump(tracker1, file)
-    file.close()
-    print('Data saved.')
+  file = open('data1.txt', 'wb')
+  pickle.dump(name1, file)
+  pickle.dump(nameVal1, file)
+  pickle.dump(tracker1, file)
+  file.close()
+  print('Data saved.')
 
-    name2 = str(input('Enter name of lift 2: '))
-    nameVal2 = float(input('Enter a value for ' + name2 + ': '))
-    tracker2 = 0
+  name2 = str(input('Enter name of lift 2: '))
+  nameVal2 = float(input('Enter a value for ' + name2 + ': '))
+  tracker2 = 0
 
-    file = open('data2.txt', 'wb')
-    pickle.dump(name2, file)
-    pickle.dump(nameVal2, file)
-    pickle.dump(tracker2, file)
-    file.close()
-    print('Data saved.')
+  file = open('data2.txt', 'wb')
+  pickle.dump(name2, file)
+  pickle.dump(nameVal2, file)
+  pickle.dump(tracker2, file)
+  file.close()
+  print('Data saved.')
 
-    name3 = str(input('Enter name of lift 3: '))
-    nameVal3 = float(input('Enter a value for ' + name3 + ': '))
-    tracker3 = 0
+  name3 = str(input('Enter name of lift 3: '))
+  nameVal3 = float(input('Enter a value for ' + name3 + ': '))
+  tracker3 = 0
 
-    file = open('data3.txt', 'wb')
-    pickle.dump(name3, file)
-    pickle.dump(nameVal3, file)
-    pickle.dump(tracker3, file)
-    file.close()
-    print('Data saved.')
+  file = open('data3.txt', 'wb')
+  pickle.dump(name3, file)
+  pickle.dump(nameVal3, file)
+  pickle.dump(tracker3, file)
+  file.close()
+  print('Data saved.')
 
-    name4 = str(input('Enter name of lift 4: '))
-    nameVal4 = float(input('Enter a value for ' + name4 + ': '))
-    tracker4 = 0
+  name4 = str(input('Enter name of lift 4: '))
+  nameVal4 = float(input('Enter a value for ' + name4 + ': '))
+  tracker4 = 0
 
-    file = open('data4.txt', 'wb')
-    pickle.dump(name4, file)
-    pickle.dump(nameVal4, file)
-    pickle.dump(tracker4, file)
-    file.close()
-    print('Data saved.')
+  file = open('data4.txt', 'wb')
+  pickle.dump(name4, file)
+  pickle.dump(nameVal4, file)
+  pickle.dump(tracker4, file)
+  file.close()
+  print('Data saved.')
 
-    name5 = str(input('Enter name of lift 5: '))
-    nameVal5 = float(input('Enter a value for ' + name5 + ': '))
-    tracker5 = 0
+  name5 = str(input('Enter name of lift 5: '))
+  nameVal5 = float(input('Enter a value for ' + name5 + ': '))
+  tracker5 = 0
 
-    file = open('data5.txt', 'wb')
-    pickle.dump(name5, file)
-    pickle.dump(nameVal5, file)
-    pickle.dump(tracker5, file)
-    file.close()
-    print('Data saved.')
+  file = open('data5.txt', 'wb')
+  pickle.dump(name5, file)
+  pickle.dump(nameVal5, file)
+  pickle.dump(tracker5, file)
+  file.close()
+  print('Data saved.')
 
-    name6 = str(input('Enter name of lift 6: '))
-    nameVal6 = float(input('Enter a value for ' + name6 + ': '))
-    tracker6 = 0
+  name6 = str(input('Enter name of lift 6: '))
+  nameVal6 = float(input('Enter a value for ' + name6 + ': '))
+  tracker6 = 0
 
-    file = open('data6.txt', 'wb')
-    pickle.dump(name6, file)
-    pickle.dump(nameVal6, file)
-    pickle.dump(tracker6, file)
-    file.close()
-    print('Data saved.')
+  file = open('data6.txt', 'wb')
+  pickle.dump(name6, file)
+  pickle.dump(nameVal6, file)
+  pickle.dump(tracker6, file)
+  file.close()
+  print('Data saved.')
 
 elif choice == 1:
   file = open('data1.txt', 'rb')
@@ -435,3 +435,5 @@ elif choice == 1:
       print('Try again next time with ', + nameVal6)
   else:
     pass
+
+  
